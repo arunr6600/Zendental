@@ -1,0 +1,58 @@
+@import '~src/scss/_variables';
+
+.footer-data-section{
+
+    @media screen and (max-width:767px){
+        margin-bottom: 30px;
+        &:nth-last-child(1){
+            margin-bottom: 0;
+        }
+    }
+    .data-wrapper{
+        padding: 0;
+        list-style: none;
+        .footer-data-title{
+            font-size: 18px;
+            font-family: $poppins;
+            font-weight: 500;
+            margin-bottom: 15px;
+            color: $title-color;
+            display: inline-block;
+            border-bottom: 2px solid $primary;
+        }
+        .footer-item{
+            font-size: 14px;
+            font-family: $roboto;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: $text-color;
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    .social-media{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        .media-item {
+            width: 30px;
+            height: 30px;
+            background: $white;
+            border-radius: 50%;
+            display: flex;
+            color: $primary;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 2px 1px #00000045;
+            margin-right: 20px;
+            &:nth-last-child(1){
+                margin-right: 0;
+            }
+        }
+        @media screen and (max-width:600px){
+            justify-content: center;
+        }
+    }
+}

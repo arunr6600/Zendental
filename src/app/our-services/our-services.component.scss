@@ -1,0 +1,30 @@
+@import '~src/scss/_variables';
+
+.sub-title{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.content {
+    font-size: 16px;
+    font-family: $roboto;
+    color: $text-color;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.service-offered{
+    .label-text{
+        font-size: 16px;
+        font-family: $poppins;
+        font-weight: 600;
+        color: $primary;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .service-item{
+        font-size: 25px;
+        font-family: $poppins;
+        font-weight: 500;
+        color: $title-color;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,14 @@
+@import '~src/scss/_variables';
+
+.sub-title {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.content {
+    font-size: 16px;
+    font-family: $roboto;
+    color: $text-color;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
